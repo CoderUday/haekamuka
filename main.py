@@ -65,7 +65,7 @@ class NitroGen: # Initialise the class
             try: # Catch any errors that may happen
                 code = "".join(random.choices( # Generate the id for the gift
                     string.ascii_uppercase + string.digits + string.ascii_lowercase,
-                    k = 16
+                    k = 19
                 ))
                 url = f"https://discord.gift/{code}" # Generate the url
 
